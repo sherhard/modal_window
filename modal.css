@@ -1,0 +1,22 @@
+.modal{
+	display: none;
+	background: rgb(0, 0, 0,0.7);
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	overflow: auto;
+	position: fixed;
+}
+.modal-content{
+	background: wheat;
+	margin: 15% auto;
+	width: 80%;
+	height: 100px;
+	
+}
+.close{
+	cursor: pointer;
+	font-size: 30px;
+	float:right;
+}
